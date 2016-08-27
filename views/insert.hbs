@@ -1,0 +1,21 @@
+<form action="/mahasiswa/insert" method="post">
+  <div>
+    <label for="name">Name:</label>
+    <input type="type" name="name"/>
+  </div>
+  <div>
+    <label for="age">Age:</label>
+    <input type="age"name="age"/>
+  <div>
+
+  <div class="botton">
+    <button type="submit">Send Your Message</button>
+  </div>
+</form>
+<div>
+  <ul>
+    {{#each data}}
+      <li>{{name}} dan {{age}}</li>
+    {{/each}}
+</ul>
+</div>
